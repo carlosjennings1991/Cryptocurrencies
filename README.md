@@ -33,3 +33,5 @@ ___
 ## Step 3: Use PCA (Principal Component Analysis) on our Scaled Data
 This reduces the number of features of our data down to a predetermined number (3 for our purposes). The remaning columns contain the majority of the variation within the data. 
 
+<img src="https://github.com/carlosjennings1991/Cryptocurrencies/blob/main/PCA_columns.png">
+
