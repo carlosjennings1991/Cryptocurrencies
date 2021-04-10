@@ -69,3 +69,9 @@ ___
 We do this to properly graph our data later. We take two of our features, the columns 'TotalCoinSupply' and 'TotalCoinsMined' and use the MinMaxScaler. 
 
 <img src="https://github.com/carlosjennings1991/Cryptocurrencies/blob/main/MinMaxScaled.png">
+
+___
+
+## Step 9: Create Scatterplot
+
+<img src="https://github.com/carlosjennings1991/Cryptocurrencies/blob/main/Scatterplot_cryptos.png">
