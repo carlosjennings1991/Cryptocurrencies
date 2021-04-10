@@ -55,3 +55,9 @@ ___
 Earlier on we had split our dataframe for the sake of scaling our data. Those resulting dataframes were crypto_df and pcs_df, Now we want to merge them back together. 
 
 <img src="https://github.com/carlosjennings1991/Cryptocurrencies/blob/main/MergeDataframes.png">
+
+___
+
+## Step 7: Create 3D Visualizatio of our 4 Clusters
+
+<img src="https://github.com/carlosjennings1991/Cryptocurrencies/blob/main/3DVisualizations_of_Clusters.png">
