@@ -14,3 +14,16 @@ All of which were performed using Jupyter Notebook in conjunctions with the Pand
 [Code File Here](https://github.com/carlosjennings1991/Cryptocurrencies/blob/main/crypto_clustering.ipynb)
 
 ---
+
+## Step 1: Preprocess our Data. 
+
+After reading in our csv file, we have to make sure our data is in a condition ready for processing. So before we do anything else we have to do the following. 
+
+- [x] Remove NaNs
+- [x] Remove defunct cryptocurrencies
+- [x] Remove cryptos without any supply
+
+## Step 2: Standardize our Data.
+We use the StandardScaler to our Alrgorithm and ProofType features. Standardizing our data centers the mean at zero and the standard deviation at 1. 
+
+<img src="https://github.com/carlosjennings1991/Cryptocurrencies/blob/main/StandardizeData.png">
