@@ -31,7 +31,13 @@ We use the StandardScaler to our Alrgorithm and ProofType features. Standardizin
 ___
 
 ## Step 3: Use PCA (Principal Component Analysis) on our Scaled Data
-This reduces the number of features of our data down to a predetermined number (3 for our purposes). The remaning columns contain the majority of the variation within the data. 
+This reduces the number of features of our data down to a predetermined number (3 for our purposes). The remaning columns contain the majority of the variation within the data. Those remaining columns are initially an array which we turn into a dataframe which will be useful for future data transformations. 
 
 <img src="https://github.com/carlosjennings1991/Cryptocurrencies/blob/main/PCA_columns.png">
 
+___
+
+## Step 4: Use KMeans to determine clusters. 
+We use the dataframe we created in the previous step, pcs_df, and create a graph which plots the number of clusters (K) and inertia, which can be understood as variation within the data. This graph is known as an 'Elbow Curve'. The number of clusters we select for future data transformations is the poin on the curve where the line becomes more horizontal, which in our case is 4. 
+
+<img src="https://github.com/carlosjennings1991/Cryptocurrencies/blob/main/KMeans_ElbowCurve.png">
