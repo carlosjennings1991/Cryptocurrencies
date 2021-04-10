@@ -24,6 +24,12 @@ After reading in our csv file, we have to make sure our data is in a condition r
 - [x] Remove cryptos without any supply
 
 ## Step 2: Standardize our Data.
-We use the StandardScaler to our Alrgorithm and ProofType features. Standardizing our data centers the mean at zero and the standard deviation at 1. 
+We use the StandardScaler to our Alrgorithm and ProofType features. Standardizing our data centers the mean at zero and the standard deviation at 1. This is done to not distort our results later, like when we need to plot our data. 
 
 <img src="https://github.com/carlosjennings1991/Cryptocurrencies/blob/main/StandardizeData.png">
+
+___
+
+## Step 3: Use PCA (Principal Component Analysis) on our Scaled Data
+This reduces the number of features of our data down to a predetermined number (3 for our purposes). The remaning columns contain the majority of the variation within the data. 
+
