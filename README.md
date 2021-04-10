@@ -62,3 +62,10 @@ ___
 We do this by using the px method within the plotly package which we imported at the beginning of our code file. As we can see, almost all coins belong to either the 0 or 1 class, with only four coins belonging to Class 3 and only one coin belonging to Class 2.
 
 <img src="https://github.com/carlosjennings1991/Cryptocurrencies/blob/main/3DVisualizations_of_Clusters.png">
+
+___
+
+## Step 8: Scale Coin Supply and Coins Mined
+We do this to properly graph our data later. We take two of our features, the columns 'TotalCoinSupply' and 'TotalCoinsMined' and use the MinMaxScaler. 
+
+<img src="https://github.com/carlosjennings1991/Cryptocurrencies/blob/main/MinMaxScaled.png">
