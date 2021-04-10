@@ -41,3 +41,9 @@ ___
 We use the dataframe we created in the previous step, pcs_df, and create a graph which plots the number of clusters (K) and inertia, which can be understood as variation within the data. This graph is known as an 'Elbow Curve'. The number of clusters we select for future data transformations is the poin on the curve where the line becomes more horizontal, which in our case is 4. 
 
 <img src="https://github.com/carlosjennings1991/Cryptocurrencies/blob/main/KMeans_ElbowCurve.png">
+
+___
+
+## Step 5: Determine which cluster each coin belongs to. 
+
+<img src="https://github.com/carlosjennings1991/Cryptocurrencies/blob/main/DetermineCluster.png">
