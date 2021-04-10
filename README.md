@@ -48,3 +48,10 @@ ___
 We determine each cluster by creating a model which produces 4 possible outcomes and apply that model to our data. Our classes will be named 0, 1, 2, and 3. As we can see from the screenshot below, most coins belong to either the 0 or 1 class, which very few belonging to classes 2 or 3. 
 
 <img src="https://github.com/carlosjennings1991/Cryptocurrencies/blob/main/DetermineCluster.png">
+
+___
+
+## Step 6: Merge the dataframes
+Earlier on we had split our dataframe for the sake of scaling our data. Those resulting dataframes were crypto_df and pcs_df, Now we want to merge them back together. 
+
+<img src="https://github.com/carlosjennings1991/Cryptocurrencies/blob/main/MergeDataframes.png">
