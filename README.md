@@ -45,6 +45,6 @@ We use the dataframe we created in the previous step, pcs_df, and create a graph
 ___
 
 ## Step 5: Determine which cluster each coin belongs to. 
-We determine each cluster by creating a model which produces 4 possible outcomes and apply that model to our data. 
+We determine each cluster by creating a model which produces 4 possible outcomes and apply that model to our data. Our classes will be named 0, 1, 2, and 3. As we can see from the screenshot below, most coins belong to either the 0 or 1 class, which very few belonging to classes 2 or 3. 
 
 <img src="https://github.com/carlosjennings1991/Cryptocurrencies/blob/main/DetermineCluster.png">
